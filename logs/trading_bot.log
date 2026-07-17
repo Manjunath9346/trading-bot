@@ -1,0 +1,65 @@
+2026-07-17 09:25:26 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.001, price=None
+2026-07-17 09:25:26 - __main__ - ERROR - Validation error: BINANCE_API_KEY and BINANCE_API_SECRET must be set in environment.
+2026-07-17 09:25:41 - __main__ - INFO - Validated inputs: symbol=ETHUSDT, side=SELL, type=LIMIT, qty=0.1, price=2000.0
+2026-07-17 09:25:41 - __main__ - ERROR - Validation error: BINANCE_API_KEY and BINANCE_API_SECRET must be set in environment.
+2026-07-17 09:37:22 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.001, price=None
+2026-07-17 09:37:22 - __main__ - ERROR - Validation error: BINANCE_API_KEY and BINANCE_API_SECRET must be set in environment.
+2026-07-17 09:38:37 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.001, price=None
+2026-07-17 09:38:37 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2026-07-17 09:38:37 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2026-07-17 09:38:37 - bot.orders - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-17 09:38:37 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "POST /api/v3/order HTTP/1.1" 401 70
+2026-07-17 09:38:37 - bot.orders - ERROR - Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2026-07-17 09:38:37 - __main__ - ERROR - Binance API error: APIError(code=-2015): Invalid API-key, IP, or permissions for action.
+2026-07-17 09:55:46 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.001, price=None
+2026-07-17 09:55:46 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2026-07-17 09:55:47 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2026-07-17 09:55:47 - bot.orders - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-17 09:55:47 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-17 09:55:47 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?quantity=0.001&side=BUY&symbol=BTCUSDT&timestamp=1784262347579&type=MARKET&signature=cab80bc3373363eaf63a3f0d43e2542235a43b38720f1d47ce8804d86defdccc HTTP/1.1" 400 79
+2026-07-17 09:55:47 - bot.orders - ERROR - Binance API error: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-07-17 09:55:47 - __main__ - ERROR - Binance API error: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-07-17 09:55:52 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.001, price=None
+2026-07-17 09:55:52 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2026-07-17 09:55:52 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2026-07-17 09:55:52 - bot.orders - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-17 09:55:52 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-17 09:55:52 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?quantity=0.001&side=BUY&symbol=BTCUSDT&timestamp=1784262352374&type=MARKET&signature=308d73e9f68d0b60e83f123101abb82e77571a5146670e8c2ec307c5e2d90cdd HTTP/1.1" 400 79
+2026-07-17 09:55:52 - bot.orders - ERROR - Binance API error: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-07-17 09:55:52 - __main__ - ERROR - Binance API error: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-07-17 09:57:07 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.001, price=None
+2026-07-17 09:57:07 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2026-07-17 09:57:08 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2026-07-17 09:57:08 - bot.orders - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-17 09:57:08 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-17 09:57:08 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?quantity=0.001&side=BUY&symbol=BTCUSDT&timestamp=1784262428037&type=MARKET&signature=e1cb8bb1613b39566351bbfb7f57beb1e81868a9b6df2c808cf0cf6c7104b378 HTTP/1.1" 200 None
+2026-07-17 09:57:08 - bot.orders - INFO - Order response: {'orderId': 22236178751, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'R2ToVoUEOpURPZVg5m7xEO', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1784262428559}
+2026-07-17 09:58:10 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=SELL, type=LIMIT, qty=0.001, price=200000.0
+2026-07-17 09:58:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2026-07-17 09:58:11 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2026-07-17 09:58:11 - bot.orders - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 200000.0, 'timeInForce': 'GTC'}
+2026-07-17 09:58:11 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-17 09:58:11 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?price=200000.0&quantity=0.001&side=SELL&symbol=BTCUSDT&timeInForce=GTC&timestamp=1784262491229&type=LIMIT&signature=bee383494016003ddef6ad3ab067ddc89d48d3f88e013f3172440a2fadbfeeac HTTP/1.1" 200 None
+2026-07-17 09:58:11 - bot.orders - INFO - Order response: {'orderId': 22236331242, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'xitZYxega6KfYEWbXOY3dj', 'price': '200000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1784262491539}
+2026-07-17 15:34:37 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.0001, price=None
+2026-07-17 15:34:37 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2026-07-17 15:34:38 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2026-07-17 15:34:38 - bot.orders - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.0001}
+2026-07-17 15:34:38 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-17 15:34:39 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?quantity=0.0001&side=BUY&symbol=BTCUSDT&timestamp=1784282678577&type=MARKET&signature=32eb6345f262e0582d3aafa2dce6032b3fac1efb556a4b89fae80ee31955db44 HTTP/1.1" 400 99
+2026-07-17 15:34:39 - bot.orders - ERROR - Binance API error: APIError(code=-4164): Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-07-17 15:34:39 - __main__ - ERROR - Binance API error: APIError(code=-4164): Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-07-17 15:35:12 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=BUY, type=MARKET, qty=0.001, price=None
+2026-07-17 15:35:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2026-07-17 15:35:12 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2026-07-17 15:35:12 - bot.orders - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-17 15:35:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-17 15:35:13 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?quantity=0.001&side=BUY&symbol=BTCUSDT&timestamp=1784282712441&type=MARKET&signature=db3c6d745b52bec81549a8ae627be8174029d32add333112cd7062c46717e061 HTTP/1.1" 200 None
+2026-07-17 15:35:13 - bot.orders - INFO - Order response: {'orderId': 22289090193, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '47xnu8GM2AcN4Qm6DAAQeO', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1784282714589}
+2026-07-17 15:37:00 - __main__ - INFO - Validated inputs: symbol=BTCUSDT, side=SELL, type=LIMIT, qty=0.001, price=70000.0
+2026-07-17 15:37:00 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2026-07-17 15:37:00 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2026-07-17 15:37:00 - bot.orders - INFO - Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 70000.0, 'timeInForce': 'GTC'}
+2026-07-17 15:37:00 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2026-07-17 15:37:01 - urllib3.connectionpool - DEBUG - https://testnet.binancefuture.com:443 "POST /fapi/v1/order?price=70000.0&quantity=0.001&side=SELL&symbol=BTCUSDT&timeInForce=GTC&timestamp=1784282820650&type=LIMIT&signature=c23d57d3725a17790ad42cd36882c0657641466db5e2c4fd3139f323c768d01a HTTP/1.1" 200 None
+2026-07-17 15:37:01 - bot.orders - INFO - Order response: {'orderId': 22289327709, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '4yK5lAEzwbOiXVmCmGwQrv', 'price': '70000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1784282822416}
